@@ -1,0 +1,44 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Real Time Data Update
+  </h1>
+</div>
+<h2>Using Web Sockets + java </h2>
+<!-- <ul>
+  <li>
+    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
+  </li>
+  <li>
+    <h2><a target="_blank" rel="noopener" href="https://angular.io/cli">CLI Documentation</a></h2>
+  </li>
+  <li>
+    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
+  </li>
+</ul> -->
+
+<h1>
+  Angular 2 WebSockets Tutorial
+</h1>
+
+<li>Sample Question 1
+  <br/>
+  <input type="radio" name="gender" value="Yes" [(ngModel)]="selectedOption"> Yes<br>
+  <input type="radio" name="gender" value="No" [(ngModel)]="selectedOption"> No<br>
+</li>
+
+<br>  
+
+<button (click)="sendMsg()">Send Message</button>
+
+<hr/>
+<h3>Answer</h3>
+{{message.correct}}
+<hr/>
+
+<hr/>
+<h3>Messages</h3>
+{{messageResponse}}
+<hr/>
+
+<router-outlet></router-outlet>
